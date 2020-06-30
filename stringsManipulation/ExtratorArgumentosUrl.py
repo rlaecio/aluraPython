@@ -18,7 +18,9 @@ class ExtratorArgumentosUrl:
 
     def __eq__(self, other):
         return self.url == other.url
-    
+
+
+
 
     @staticmethod
     def urlEhValida(url):
