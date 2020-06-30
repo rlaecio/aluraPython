@@ -8,5 +8,19 @@ moedaOrigem, moedaDestino = argumentoUrl.extraiArgumentos()
 valor = argumentoUrl.extraiValor()
 print(moedaDestino, moedaOrigem, valor)
 
+print(argumentoUrl)
+
+print("---------------------------------------------")
+
+
+argumentoUrl  = ExtratorArgumentosUrl(url)
+argumentoUrl2 = ExtratorArgumentosUrl(url)
+
+
+print(id(argumentoUrl))
+print(id(argumentoUrl2))
+
+print(argumentoUrl==argumentoUrl2)
+
 
 
